@@ -92,7 +92,7 @@ JWT_SECRET=your_jwt_secret_key_here_change_in_production
 npm run dev
 ```
 
-The backend server will run on `http://localhost:5000`
+The backend server will run on `https://taskmanagement-mdjy.onrender.com`
 
 ### Frontend Setup
 
@@ -108,7 +108,7 @@ npm install
 
 3. Create a `.env` file in the frontend directory (optional, defaults to localhost:5000):
 ```env
-VITE_API_URL=http://localhost:5000/api
+VITE_API_URL= https://taskmanagement-mdjy.onrender.com
 ```
 
 4. Start the development server:
@@ -116,7 +116,7 @@ VITE_API_URL=http://localhost:5000/api
 npm run dev
 ```
 
-The frontend will run on `http://localhost:3000`
+The frontend will run on `https://task-management-iota-ten.vercel.app/signin`
 
 ## Usage
 
